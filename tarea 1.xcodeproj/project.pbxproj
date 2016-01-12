@@ -15,6 +15,7 @@
 		F1FC49211C448EBB00FCD886 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1FC491F1C448EBB00FCD886 /* LaunchScreen.storyboard */; };
 		F1FC492C1C448EBB00FCD886 /* tarea_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FC492B1C448EBB00FCD886 /* tarea_1Tests.swift */; };
 		F1FC49371C448EBB00FCD886 /* tarea_1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FC49361C448EBB00FCD886 /* tarea_1UITests.swift */; };
+		F1FC49451C44903200FCD886 /* tarea1_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FC49441C44903200FCD886 /* tarea1_1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		F1FC49321C448EBB00FCD886 /* tarea 1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tarea 1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1FC49361C448EBB00FCD886 /* tarea_1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tarea_1UITests.swift; sourceTree = "<group>"; };
 		F1FC49381C448EBB00FCD886 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1FC49441C44903200FCD886 /* tarea1_1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = tarea1_1.swift; path = ../tarea1_1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		F1FC49131C448EBB00FCD886 /* tarea 1 */ = {
 			isa = PBXGroup;
 			children = (
+				F1FC49441C44903200FCD886 /* tarea1_1.swift */,
 				F1FC49141C448EBB00FCD886 /* AppDelegate.swift */,
 				F1FC49161C448EBB00FCD886 /* MasterViewController.swift */,
 				F1FC49181C448EBB00FCD886 /* DetailViewController.swift */,
@@ -262,6 +265,7 @@
 				F1FC49191C448EBB00FCD886 /* DetailViewController.swift in Sources */,
 				F1FC49171C448EBB00FCD886 /* MasterViewController.swift in Sources */,
 				F1FC49151C448EBB00FCD886 /* AppDelegate.swift in Sources */,
+				F1FC49451C44903200FCD886 /* tarea1_1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,6 +492,7 @@
 				F1FC493D1C448EBB00FCD886 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F1FC493E1C448EBB00FCD886 /* Build configuration list for PBXNativeTarget "tarea 1Tests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +501,7 @@
 				F1FC49401C448EBB00FCD886 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F1FC49411C448EBB00FCD886 /* Build configuration list for PBXNativeTarget "tarea 1UITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +510,7 @@
 				F1FC49431C448EBB00FCD886 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
